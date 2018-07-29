@@ -1,4 +1,4 @@
-var playlist = {};
+var playlist = new.Object();
 function updatePlaylist(object,artist,song){
   object[artist] = song;
 }
